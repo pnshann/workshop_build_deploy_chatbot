@@ -13,10 +13,10 @@ from langchain.schema import (
 def init():
     # setup streamlit page
     st.set_page_config(
-        page_title="Chatbot Powered by OpenAI"
+        page_title="Workshop: Building & Deploying AI Powered Chabots 👋"
     )
 
-    st.header("Your personal chatbot! Powered by OpenAI")
+    st.header("<Name>'s Personal Chabot! 🤖")
     
     with st.sidebar:
       youropenaikey = st.text_input("OpenAI API Key", key="youropenaitoken", type="password")    
